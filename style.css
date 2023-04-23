@@ -1,0 +1,58 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    padding:0 250px;
+}
+
+
+.text-center{
+    font-weight: 500 !important;
+}
+
+.text-warring{
+    color: #FFC107;
+}
+.icon-font{
+    color: #FFC107;
+}
+
+.form-group{
+    margin: 15px 0;
+}
+
+
+.btn-block{
+    width: 100% !important;
+    color: #111 !important;
+    transition: 0.5s;
+    outline: none;
+}
+
+.btn-block:hover{
+    background-color: #ffc10763;
+}
+
+.btn-res{
+    width: 100%;
+    background-color: red !important;
+    color: #fff !important;
+}
+
+.btn-res:hover{
+    background-color: #999 !important;
+}
+
+/*----------------
+  Responsive-teg
+----------------*/
+@media screen and (max-width: 991px){
+
+main{
+    padding: 0;
+  }
+}
